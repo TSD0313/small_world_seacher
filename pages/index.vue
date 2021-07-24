@@ -32,9 +32,20 @@
         </div>
       </div>
     </div>
-    <div class="container mt-5 lead d-flex align-items-end">
-      <p style="text-align:left">Created by</p><a href="https://twitter.com/toride0313" class="ml-1" target="_blank" rel="noopener noreferrer"> @toride0313</a><a href="'https://twitter.com/intent/follow?screen_name=toride0313'" class="btn btn-info ml-3 btn-sm" role="button">Twitterをフォローする</a>
+    <div class="container align-items-end">
+      <div class="mt-4">
+        <p style="text-align:left">
+          <b>
+            ※PCブラウザ推奨。スマートフォン表示ではレイアウトが崩れます。<br>
+            ※スマホからご利用の際は入力フォームの左端をタップしてください。
+            </b>
+        </p>
+      </div>
+      <div class="mt-2 lead d-flex align-items-end">
+        <p style="text-align:left">Created by</p><a href="https://twitter.com/toride0313" class="ml-1" target="_blank" rel="noopener noreferrer"> @toride0313</a><a href="'https://twitter.com/intent/follow?screen_name=toride0313'" class="btn btn-info ml-3 btn-sm" role="button">Twitterをフォローする</a>
+      </div>
     </div>
+    
     <hr>
     <div class="container">
       <form>
