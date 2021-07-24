@@ -5,6 +5,14 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  router: {
+    base: '/small_world_seacher/'
+  },
+
+  generate: {
+    dir: 'docs'
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Small World Seracher',
@@ -48,5 +56,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    babel: {
+      babelrc: false,
+      compact: false
+    }
   }
 }
