@@ -72,7 +72,7 @@
     <hr>
     <div v-if="searchAction">
       <div class="container pb-3 lead">
-        <a v-bind:href="'https://twitter.com/intent/tweet?text=[' + start_name + ']%E2%96%B6[' + goal_name + ']%E3%82%92%E7%B9%8B%E3%81%90%E3%82%AB%E3%83%BC%E3%83%89%E3%81%AF' + list.length + '%E7%A8%AE%E9%A1%9E%EF%BC%81%23SmallWorldSeacher%20https://tsd0313.github.io/small_world_seacher/'" class="btn btn-info" role="button">結果をTweet</a>
+        <a v-bind:href="'https://twitter.com/intent/tweet?text=[' + start_name.replace('&', '%26') + ']%E2%96%B6[' + goal_name.replace('&', '%26') + ']%E3%82%92%E7%B9%8B%E3%81%90%E3%82%AB%E3%83%BC%E3%83%89%E3%81%AF' + list.length + '%E7%A8%AE%E9%A1%9E%EF%BC%81%23SmallWorldSeacher%20https://tsd0313.github.io/small_world_seacher/'" class="btn btn-info" role="button">結果をTweet</a>
       </div>
     </div>
     <div v-if="viewList.length !== 0">
