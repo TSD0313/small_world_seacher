@@ -24,7 +24,7 @@
             <div v-if="searchAction && items.includes(start_name) && items.includes(goal_name)">
               <div align="right">
                 <img class="shadow-lg p-3 mb-5 bg-light rounded" :src="this.$store.state.main_monster_list.data.find(card => card.name == start_name).card_images[0].image_url" width="20%">
-                <img class="mx-5" src="/arrow.png">
+                <img class="mx-5" src="https://raw.githubusercontent.com/TSD0313/small_world_seacher/master/docs/arrow.png">
                 <img class="shadow-lg p-3 mb-5 bg-light rounded" :src="this.$store.state.main_monster_list.data.find(card => card.name == goal_name).card_images[0].image_url" width="20%">
               </div>
             </div>
