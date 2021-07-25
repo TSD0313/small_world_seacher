@@ -210,7 +210,7 @@
         list: this.$store.state.search_result_list,
         viewList: [],
         pageSize: 30,
-        attributes: ["DARK","RIGHT","EARTH","WATER","FIRE","WIND","DEVINE"],
+        attributes: ["DARK","LIGHT","EARTH","WATER","FIRE","WIND","DIVINE"],
         races: ["Spellcaster","Dragon","Zombie","Warrior","Beast-Warrior","Beast","Winged Beast","Beast","Fiend","Fairy","Insect","Dinosaur","Reptile","Fish","Sea Serpent","Aqua","Pyro","Thunder","Rock","Plant","Machine","Psychic","Divine-Beast","Wyrm","Cyberse"],
         filterParam: {
           level: "All",
