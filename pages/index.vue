@@ -128,7 +128,7 @@
         <div class="columns is-multiline">
           <div v-for="(item, i) in this.viewList" v-bind:key='i' class='column is-2'>
             <div class="card" style="width: 14rem;">
-              <img :src="item.card_images[0].image_url_small" class="card-img-top" width="50%" height="50%">
+              <img :src="item.card_images[0].image_url" class="card-img-top" width="50%" height="50%">
               <div class="card-body">
                 <a v-bind:href="'https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=1&request_locale=en&keyword=' + item.name" class="card-title font-weight-bold" target="_blank" rel="noopener noreferrer">{{ item.name }}</a>
                 <p class="card-text">★{{ item.level }} / {{ item.attribute }} / {{ item.race }}</p>
