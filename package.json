@@ -18,7 +18,7 @@
     "nuxt": "^2.15.7",
     "vue-loading-template": "^1.3.2",
     "vue-suggest-input": "^0.1.4",
-    "vuetify": "^2.4.0"
+    "vuetify": "^2.6.7"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.7",
